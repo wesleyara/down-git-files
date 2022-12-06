@@ -1,6 +1,6 @@
 {
-  "name": "change-project-name",
-  "version": "1.0.2",
+  "name": "downgit",
+  "version": "0.0.1",
   "description": "A React utils functions.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -26,18 +26,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/change-autor/change-project-name.git"
+    "url": "git+https://github.com/wesleyara/downgit.git"
   },
   "keywords": [
     "typescript",
     "javascript"
   ],
-  "author": "change-autor",
+  "author": "Wesley Araújo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/change-autor/change-project-name/issues"
+    "url": "https://github.com/wesleyara/downgit/issues"
   },
-  "homepage": "https://github.com/change-autor/change-project-name#readme",
+  "homepage": "https://github.com/wesleyara/downgit#readme",
   "dependencies": {
     "axios": "^1.2.0",
     "rimraf": "^3.0.2"
