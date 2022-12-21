@@ -1,6 +1,6 @@
 {
   "name": "downgit",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Download github files with API.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
