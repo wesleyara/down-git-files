@@ -25,6 +25,15 @@ export const fileRequest = async ({
   const content = Buffer.from(data.content, "base64").toString("utf-8");
 
   if (file) {
+    if (file.includes("/")) {
+      const path = file.split("/");
+      path.pop();
+
+      if (!fs.existsSync(path.join("/"))) {
+        fs.mkdirSync(path.join("/"), { recursive: true });
+      }
+    }
+
     fs.writeFileSync(file, content);
     return content;
   }
