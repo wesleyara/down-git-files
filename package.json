@@ -1,5 +1,5 @@
 {
-  "name": "downgit",
+  "name": "down-git-files",
   "version": "1.0.0",
   "description": "Download github files with API.",
   "main": "lib/index.js",
@@ -26,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wesleyara/downgit.git"
+    "url": "git+https://github.com/wesleyara/down-git-files.git"
   },
   "keywords": [
     "typescript",
@@ -35,9 +35,9 @@
   "author": "Wesley Araújo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wesleyara/downgit/issues"
+    "url": "https://github.com/wesleyara/down-git-files/issues"
   },
-  "homepage": "https://github.com/wesleyara/downgit#readme",
+  "homepage": "https://github.com/wesleyara/down-git-files#readme",
   "dependencies": {
     "axios": "^1.2.0",
     "rimraf": "^3.0.2"

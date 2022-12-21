@@ -6,7 +6,7 @@ describe("resquest file", () => {
   it("should return a file", async () => {
     const file = await fileRequest({
       user: "wesleyara",
-      repo: "downgit",
+      repo: "down-git-files",
       path: "commitlint.config.js",
       branch: "main",
     });
